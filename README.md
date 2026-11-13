@@ -1,27 +1,28 @@
 # CICD-1 Coding Test — Review, Improve and Reflect
 
-**Student ID:**  
-**Examination group:** A (Room Booking / JPQL) or B (OpenFeign):  
-**Original examination pull-request URL (`exam-work`):**  
-**New review repository URL:**
+**Student ID: G00461762**  
+**Examination group:** B (OpenFeign):  
+**Original examination pull-request URL (`exam-work`): https://github.com/Beatricepapi/G00461762/pull/1?utm_source=chatgpt.com**  
+**New review repository URL: https://github.com/Beatricepapi/CICD1_Review_G00461762_Final.git**
 
 ## 1. My original examination self-assessment
 
 Review the code **as submitted in the original examination**. Do not change the original repository, branch or pull request. Check your own Group A or Group B examination paper and award marks only for evidence present in the original submission.
 
 ### Task 1 — /40
-**My mark:**  
-**Evidence from the original code (files, methods, working or missing requirements):**
+**My mark: 8 / 40**  
+**Evidence from the original code (files, methods, working or missing requirements):
+In my original examination submission, I created some Java classes and attempted to use a DTO and validation. However, I implemented Student and Room instead of the required Booking model. I did not correctly implement all the required booking fields, including organiser name, attendee count, room ID and ACTIVE status. The response DTO was also incomplete. There was a syntax error in my entity relationship annotation, which could prevent compilation.**
 
 ### Task 2 — /40
-**My mark:**  
-**Evidence from the original code:**
+**My mark: 2 / 40**  
+**Evidence from the original code: I attempted to create controller and service classes, but I did not implement the required POST /api/bookings endpoint. My original code did not include a working OpenFeign client to retrieve room information from the separate Room Service. I also did not implement the room-capacity validation or complete the booking persistence logic. Some service methods returned null.**
 
 ### Task 3 — /20
-**My mark:**  
-**Evidence from the original code:**
+**My mark: 0 / 40**  
+**Evidence from the original code: I did not implement the required GET /api/bookings/{id} endpoint. My original submission did not retrieve a booking from the local database and return the required response DTO. I also did not implement the appropriate not-found response.**
 
-**Total self-assessed original examination mark: /100**
+**Total self-assessed original examination mark: 10 / 100**
 
 **Checkpoint:** Commit this completed self-assessment as the **first review commit in your new repository**, before you modify or add application code. The lecturer decides the official original examination mark.
 
