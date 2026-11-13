@@ -19,7 +19,7 @@ In my original examination submission, I created some Java classes and attempted
 **Evidence from the original code: I attempted to create controller and service classes, but I did not implement the required POST /api/bookings endpoint. My original code did not include a working OpenFeign client to retrieve room information from the separate Room Service. I also did not implement the room-capacity validation or complete the booking persistence logic. Some service methods returned null.**
 
 ### Task 3 — /20
-**My mark: 0 / 40**  
+**My mark: 0 / 20**  
 **Evidence from the original code: I did not implement the required GET /api/bookings/{id} endpoint. My original submission did not retrieve a booking from the local database and return the required response DTO. I also did not implement the appropriate not-found response.**
 
 **Total self-assessed original examination mark: 10 / 100**
